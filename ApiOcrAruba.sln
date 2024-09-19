@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOcrAruba", "ApiOcrAruba\ApiOcrAruba.csproj", "{18B08A67-63BF-4A27-98E9-F0785064FE50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15248203-C1CD-435A-A177-E281D20829CA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOcrAruba.UI", "ApiOcrAruba.UI\ApiOcrAruba.UI.csproj", "{FE488957-9F5C-4DF8-9740-FE6FACCC75D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOcrAruba.Tests", "ApiOcrAruba.Tests\ApiOcrAruba.Tests.csproj", "{65953E8F-2B63-4C65-8D20-A5EFF00D7C86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B08A67-63BF-4A27-98E9-F0785064FE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B08A67-63BF-4A27-98E9-F0785064FE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B08A67-63BF-4A27-98E9-F0785064FE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B08A67-63BF-4A27-98E9-F0785064FE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE488957-9F5C-4DF8-9740-FE6FACCC75D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE488957-9F5C-4DF8-9740-FE6FACCC75D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE488957-9F5C-4DF8-9740-FE6FACCC75D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE488957-9F5C-4DF8-9740-FE6FACCC75D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65953E8F-2B63-4C65-8D20-A5EFF00D7C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65953E8F-2B63-4C65-8D20-A5EFF00D7C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65953E8F-2B63-4C65-8D20-A5EFF00D7C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65953E8F-2B63-4C65-8D20-A5EFF00D7C86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74AAD95B-4AED-49C5-9219-BEF8027E0356}
+	EndGlobalSection
+EndGlobal
